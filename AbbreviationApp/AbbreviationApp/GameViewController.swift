@@ -13,6 +13,7 @@ class GameViewController: UIViewController {
     enum GamePlay {
         case start
         case resume
+        case pause
         case inprogress
         case ended
     }
