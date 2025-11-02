@@ -11,6 +11,8 @@ import UIKit
 class GameViewController: UIViewController {
     
     enum GamePlay {
+        case start
+        case resume
         case inprogress
         case ended
     }
