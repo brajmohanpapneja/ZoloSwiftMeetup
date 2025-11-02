@@ -15,6 +15,7 @@ class ListAcronymViewController: UIViewController,UITableViewDelegate,UITableVie
     var responseAcronyms : Array<Any>?
     var cellShortText : String! = ""
     var cellLongText : String! = ""
+    var gameBreak: Int
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return countAcronyms
